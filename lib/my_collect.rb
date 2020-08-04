@@ -1,4 +1,4 @@
-collection = ["RUBY", "JAVASCRIPT", "PYTHON", "OBJECTIVE-C"]
+
 def my_collect(collection)
   i = 0
   collection = []
