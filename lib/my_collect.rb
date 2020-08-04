@@ -1,12 +1,12 @@
 def my_collect(array)
   i = 0
-  name_collection = []
+  array = []
   while i < array.length
-    name_collection << yield(array[i])
+    array << yield(array[i])
  
     i += 1
   end
-  name_collection
+  array
 end
 
 my_collect(list) {|i| i.split(" ").first}
