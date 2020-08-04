@@ -9,4 +9,3 @@ def my_collect(array)
   array
 end
 
-my_collect(list) {|i| i.split(" ").first}
