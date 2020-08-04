@@ -1,11 +1,11 @@
 array = ["RUBY", "JAVASCRIPT", "PYTHON", "OBJECTIVE-C"]
-def my_collect(array)
+def my_collect(languages)
   i = 0
   array = []
   while i < array.length
     array << yield(array[i])
     i += 1
   end
-  array
+  languages
 end
 
