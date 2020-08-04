@@ -8,6 +8,6 @@ def my_collect(collection)
     collection << yield(array[i])
     i += 1
   end
-  languages
+  lang
 end
-end
+
